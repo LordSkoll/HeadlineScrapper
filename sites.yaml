@@ -5,3 +5,7 @@ sites:
   - name: GoodNews
     url: https://www.goodnewsnetwork.org/category/news/world/
     selector: ".td_module_3 .entry-title.td-module-title a"
+  - name: WeirdNews
+    url: https://news.sky.com/offbeat
+    selector: "a.ui-story-headline"
+

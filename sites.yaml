@@ -1,7 +1,7 @@
 sites:
   - name: GoodNewsAnimals
     url: https://www.goodnewsnetwork.org/category/news/animals/
-    selector: ".entry-title "
+    selector: ".td_module_3 .entry-title.td-module-title a"
   - name: GoodNews
     url: https://www.goodnewsnetwork.org/category/news/world/
-    selector: "h3"
+    selector: ".td_module_3 .entry-title.td-module-title a"

@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import yaml
 from datetime import datetime
 
+MAX_HEADLINES = 5
+
 OUTPUT_FILE = "headlines.txt"
 
 HEADERS = {
@@ -23,7 +25,7 @@ def scrape_site(site):
 
         elements = soup.select(selector)
 
-        for el in elements[:10]:
+        for el in elements[:MAX_HEADLINES]:
             text = el.get_text(strip=True)
             if text:
                 headlines.append(text)
@@ -43,9 +45,9 @@ def main():
 
         for site in sites["sites"]:
             name, headlines = scrape_site(site)
-            out.write(f"=== {name} ===\n")
+            #out.write(f"=== {name} ===\n")#the headline
             for h in headlines:
-                out.write(f"- {h}\n")
+                out.write(f"{h};\n") #Formatting of the file itself
             out.write("\n")
 
 

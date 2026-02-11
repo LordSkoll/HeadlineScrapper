@@ -2,7 +2,7 @@ name: Scrape Headlines
 
 on:
   schedule:
-    - cron: "34 12 * * *"   # runs at 14:30 daily
+    - cron: "*/10 * * * *"   # runs at 14:30 daily
   workflow_dispatch:      # allows manual run
 
 jobs:

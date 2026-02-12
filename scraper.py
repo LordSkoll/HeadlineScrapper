@@ -35,6 +35,23 @@ def scrape_site(site):
 
     return name, headlines
 
+def remove_symbol(text, symbol):
+    """
+    Remove all occurrences of the specified symbol from the text.
+    """
+    if not symbol:
+        return text
+    return text.replace(symbol, "")
+
+
+def replace_symbol(text, old_symbol, new_symbol):
+    """
+    Replace all occurrences of old_symbol with new_symbol in the text.
+    """
+    if not old_symbol:
+        return text
+    return text.replace(old_symbol, new_symbol)
+
 
 def main():
     with open("sites.yaml") as f:
@@ -47,7 +64,9 @@ def main():
             name, headlines = scrape_site(site)
             #out.write(f"=== {name} ===\n")#the headline
             for h in headlines:
-                out.write(f"{h};\n") #Formatting of the file itself
+                h = replace_symbol(h, "‘", '"')
+                h = replace_symbol(h, "’", '"')
+                out.write(f"{h}\n") #Formatting of the file itself
             out.write("\n")
 
 

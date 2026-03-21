@@ -71,10 +71,7 @@ def main():
             name, headlines = scrape_site(site)
             #out.write(f"=== {name} ===\n")#the headline
             for h in headlines:
-                h = replace_symbol(h, "‘", '"')
-                h = replace_symbol(h, "’", '"')
-                h = replace_symbol(h, "„", '"')
-                h = replace_symbol(h, "”", '"')
+
                 translated = translate_text(h, target_lang="pl")
                 translated = replace_symbol(translated, "ą", 'a')
                 translated = replace_symbol(translated, "ć", 'c')
@@ -83,6 +80,10 @@ def main():
                 translated = replace_symbol(translated, "ł", 'l')
                 translated = replace_symbol(translated, "ó", 'o')
                 translated = replace_symbol(translated, "ę", 'e')
+                translated = replace_symbol(translated, "‘", '"')
+                translated = replace_symbol(translated, "’", '"')
+                translated = replace_symbol(translated, "„", '"')
+                translated = replace_symbol(translated, "”", '"')
                 out.write(f"{translated}\n")
             out.write("\n")
 

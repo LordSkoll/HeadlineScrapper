@@ -73,6 +73,13 @@ def main():
             for h in headlines:
                 h = replace_symbol(h, "‘", '"')
                 h = replace_symbol(h, "’", '"')
+                h = replace_symbol(h, "ą", 'a')
+                h = replace_symbol(h, "ć", 'c')
+                h = replace_symbol(h, "ż", 'z')
+                h = replace_symbol(h, "ź", 'z')
+                h = replace_symbol(h, "ł", 'l')
+                h = replace_symbol(h, "ó", 'o')
+                h = replace_symbol(h, "ę", 'e')
                 translated = translate_text(h, target_lang="pl")
                 out.write(f"{translated}\n")
             out.write("\n")

@@ -70,12 +70,10 @@ def main():
         for site in sites["sites"]:
             name, headlines = scrape_site(site)
             #out.write(f"=== {name} ===\n")#the headline
-            for h in headlines:
+           for h in headlines:
                 h = replace_symbol(h, "‘", '"')
                 h = replace_symbol(h, "’", '"')
-
-                translated = translate_text(h, target_lang="en")
-                out.write(f"{translated}\n")
+                out.write(f"{h}\n")
                 out.write("\n")
 
 

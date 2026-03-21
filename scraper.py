@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import yaml
 from datetime import datetime
+from deep_translator import GoogleTranslator
 
 MAX_HEADLINES = 5
 
@@ -10,6 +11,12 @@ OUTPUT_FILE = "headlines.txt"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; HeadlineBot/1.0)"
 }
+
+def translate_text(text, target_lang="en"):
+    try:
+        return GoogleTranslator(source="auto", target=target_lang).translate(text)
+    except Exception as e:
+        return f"[TRANSLATION ERROR: {e}]"
 
 def scrape_site(site):
     url = site["url"]
@@ -66,8 +73,10 @@ def main():
             for h in headlines:
                 h = replace_symbol(h, "‘", '"')
                 h = replace_symbol(h, "’", '"')
-                out.write(f"{h}\n") #Formatting of the file itself
-            out.write("\n")
+
+                translated = translate_text(h, target_lang="en")
+                out.write(f"{translated}\n")
+                out.write("\n")
 
 
 if __name__ == "__main__":

@@ -66,11 +66,11 @@ def main():
         for site in sites["sites"]:
             name, headlines = scrape_site(site)
             #out.write(f"=== {name} ===\n")#the headline
-           for h in headlines:
-               h = replace_symbol(h, "‘", '"')
-               h = replace_symbol(h, "’", '"')
-               out.write(f"{h}\n")
-               out.write("\n")
+            for h in headlines:
+                h = replace_symbol(h, "‘", '"')
+                h = replace_symbol(h, "’", '"')
+                out.write(f"{h}\n")
+                out.write("\n")
 
 
 if __name__ == "__main__":

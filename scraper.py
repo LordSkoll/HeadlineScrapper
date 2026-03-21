@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import yaml
 from datetime import datetime
-from deep_translator import GoogleTranslator
+
 
 MAX_HEADLINES = 5
 
@@ -12,11 +12,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; HeadlineBot/1.0)"
 }
 
-def translate_text(text, target_lang="en"):
-    try:
-        return GoogleTranslator(source="auto", target=target_lang).translate(text)
-    except Exception as e:
-        return f"[TRANSLATION ERROR: {e}]"
+
 
 def scrape_site(site):
     url = site["url"]

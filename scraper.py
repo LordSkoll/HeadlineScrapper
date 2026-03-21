@@ -75,7 +75,7 @@ def main():
                 h = replace_symbol(h, "’", '"')
                 translated = translate_text(h, target_lang="pl")
                 out.write(f"{translated}\n")
-                out.write("\n")
+            out.write("\n")
 
 
 if __name__ == "__main__":

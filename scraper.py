@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import yaml
 from datetime import datetime
-
+from deep_translator import GoogleTranslator
 
 MAX_HEADLINES = 5
 

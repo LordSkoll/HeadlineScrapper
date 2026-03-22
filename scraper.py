@@ -86,6 +86,7 @@ def main():
                 translated = replace_symbol(translated, "’", '"')
                 translated = replace_symbol(translated, "„", '"')
                 translated = replace_symbol(translated, "”", '"')
+                translated = replace_symbol(translated, "–", '-')
                 out.write(f"{translated}\n")
             out.write("\n")
 

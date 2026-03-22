@@ -81,6 +81,7 @@ def main():
                 translated = replace_symbol(translated, "ó", 'o')
                 translated = replace_symbol(translated, "ę", 'e')
                 translated = replace_symbol(translated, "ś", 's')
+                translated = replace_symbol(translated, "ń", 'n')
                 translated = replace_symbol(translated, "‘", '"')
                 translated = replace_symbol(translated, "’", '"')
                 translated = replace_symbol(translated, "„", '"')

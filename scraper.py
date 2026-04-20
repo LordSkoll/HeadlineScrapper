@@ -38,7 +38,8 @@ def scrape_site(site):
                 headlines.append(text)
 
     except Exception as e:
-        headlines.append(f"[ERROR scraping {name}: {e}]")
+        #headlines.append(f"[ERROR scraping {name}: {e}]")
+        headlines.append(f" ")
 
     return name, headlines
 

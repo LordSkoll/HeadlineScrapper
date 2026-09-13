@@ -1,20 +1,20 @@
-Updated: 2026-09-13T02:43:15.522142 UTC
+Updated: 2026-09-13T15:28:42.163463 UTC
 
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
 
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
 
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
-Error 500 (Server Error)!!1500.That"s an error.There was an error. Please try again later.That"s all we know.
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
+[TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
 

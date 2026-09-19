@@ -1,4 +1,4 @@
-Updated: 2026-09-18T15:39:59.566548 UTC
+Updated: 2026-09-19T02:46:02.562167 UTC
 
 [TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]
 [TRANSLATION ERROR: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function]

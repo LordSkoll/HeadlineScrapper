@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import yaml
+import time
 from datetime import datetime
 from deep_translator import GoogleTranslator
 
@@ -72,7 +73,7 @@ def main():
             name, headlines = scrape_site(site)
             #out.write(f"=== {name} ===\n")#the headline
             for h in headlines:
-
+                time.sleep(1)
                 translated = translate_text(h, target_lang="pl")
                 translated = replace_symbol(translated, "ą", 'a')
                 translated = replace_symbol(translated, "ć", 'c')

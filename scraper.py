@@ -16,7 +16,7 @@ MAX_HEADLINES = 5
 
 OUTPUT_FILE = "headlines.txt"
 
-TRANSLATE_HEADLINES = True  # True = translate, False = original text
+TRANSLATE_HEADLINES = False  # True = translate, False = original text
 
 TARGET_LANGUAGE = "pl"
 
